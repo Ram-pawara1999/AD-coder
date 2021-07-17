@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Qahiri&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-Div {
+    position: relative;
+    background-color: rgb(71, 124, 223);
+    height: 100vh;
+}
+
+.center-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.center-div h1 {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.center-div textarea {
+    padding: 10px;
+    border: 10px solid rgb(7, 85, 158);
+    border-radius: 10px 10px 0 0;
+    font-size: 1rem;
+    background-color: rgb(233, 227, 227);
+}
+
+.center-div button {
+    font-size: 17px;
+    padding: 8px 13px;
+    background: #006b8b;
+    color: wheat;
+    border-radius: 10px 10px 0 0;
+    border: 5px solid darkgoldenrod;
+    cursor: pointer;
+}
